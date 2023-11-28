@@ -9,3 +9,4 @@ anatomical_features = anatomical.filter(regex='.N*V').drop(['NGMV', 'NBV'], axis
 
 sdmt_BS = clinical[['SDMT_Z']]
 sdmt_FU = clinical[['SDMT_Z_FU']]
+
